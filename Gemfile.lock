@@ -71,6 +71,10 @@ GEM
     erubi (1.10.0)
     globalid (1.0.0)
       activesupport (>= 5.0)
+    graphiql-rails (1.8.0)
+      railties
+      sprockets-rails
+    graphql (1.13.0)
     i18n (1.8.11)
       concurrent-ruby (~> 1.0)
     io-console (0.5.9)
@@ -125,6 +129,14 @@ GEM
     rake (13.0.6)
     reline (0.2.7)
       io-console (~> 0.5)
+    spring (3.1.1)
+    sprockets (4.0.2)
+      concurrent-ruby (~> 1.0)
+      rack (> 1, < 3)
+    sprockets-rails (3.4.1)
+      actionpack (>= 5.2)
+      activesupport (>= 5.2)
+      sprockets (>= 3.0.0)
     thor (1.1.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
@@ -139,9 +151,12 @@ PLATFORMS
 DEPENDENCIES
   bootsnap (>= 1.4.4)
   debug (>= 1.0.0)
+  graphiql-rails (~> 1.8)
+  graphql (~> 1.13)
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.0.rc1)
+  spring
   tzinfo-data
 
 RUBY VERSION
